@@ -95,8 +95,8 @@ export const HomePage = () => {
         <ShowCase
           title="Aplicatico de gestõo de finanças"
           foto={finapp}
-          description="O aplicativo trata-se de um conversor de moedas, onde o usuario pode fazer conversões entre todos os tipos de moedas, até mesmo cripto-moedas. O desenvolvimento foi realizado com Kotlin, através do Android Studio e é nativo para o sistemas android"
-          githubLink="https://github.com/RaphaelNCP/app_conversor_de_moedas"
+          description="O aplicativo trata-se de um aplicativo de gestão de finanças, onde o usuario pode cadastrar suas entradas e saidas, e ter um controle de suas finanças com visuaçização de histórico e relação do dinheiro atual. O desenvolvimento foi realizado com React Native e é uma aplicação híbrida."
+          githubLink="https://github.com/RaphaelNCP/Finapp"
           type={1}
         />
         <Linha />
