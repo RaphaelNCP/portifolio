@@ -16,6 +16,7 @@ import ecommerce from "../../assets/images/ecommerce.svg";
 import coinConverter from "../../assets/images/coin-conver.svg";
 import { ShowCase } from "../../components/ShowCase";
 import { Footer } from "../../components/Footer";
+import finapp from "../../assets/images/finapp.svg";
 
 export const HomePage = () => {
   return (
@@ -92,11 +93,19 @@ export const HomePage = () => {
         />
         <Linha />
         <ShowCase
+          title="Aplicatico de gestõo de finanças"
+          foto={finapp}
+          description="O aplicativo trata-se de um conversor de moedas, onde o usuario pode fazer conversões entre todos os tipos de moedas, até mesmo cripto-moedas. O desenvolvimento foi realizado com Kotlin, através do Android Studio e é nativo para o sistemas android"
+          githubLink="https://github.com/RaphaelNCP/app_conversor_de_moedas"
+          type={1}
+        />
+        <Linha />
+        <ShowCase
           title="Conversor de moedas"
           foto={coinConverter}
           description="O aplicativo trata-se de um conversor de moedas, onde o usuario pode fazer conversões entre todos os tipos de moedas, até mesmo cripto-moedas. O desenvolvimento foi realizado com Kotlin, através do Android Studio e é nativo para o sistemas android"
           githubLink="https://github.com/RaphaelNCP/app_conversor_de_moedas"
-          type={1}
+          type={2}
         />
       </Container>
       <Footer />
